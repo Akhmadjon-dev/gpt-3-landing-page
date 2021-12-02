@@ -1,0 +1,23 @@
+:root{
+    --orange: #FF4820;
+    --gradient: linear-gradient(to right, #AE67FA 100%, #F49867 100%);
+    --bg: #040C18;
+    --text: #81AFDD;
+    --white: #ffffff;
+    --black: #000000;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background: var(--bg);
+}
